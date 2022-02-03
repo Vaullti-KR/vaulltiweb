@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vaulltiweb/static/css/main.073c9b0a.css",
+    "main.js": "/vaulltiweb/static/js/main.576d9392.js",
+    "static/js/787.637ee401.chunk.js": "/vaulltiweb/static/js/787.637ee401.chunk.js",
+    "static/media/logo.svg": "/vaulltiweb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/vaulltiweb/index.html",
+    "main.073c9b0a.css.map": "/vaulltiweb/static/css/main.073c9b0a.css.map",
+    "main.576d9392.js.map": "/vaulltiweb/static/js/main.576d9392.js.map",
+    "787.637ee401.chunk.js.map": "/vaulltiweb/static/js/787.637ee401.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.576d9392.js"
+  ]
+}

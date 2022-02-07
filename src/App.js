@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import Hero from './views/pages/hero/Hero'
+import Login from './views/pages/login/Login'
+import Register from './views/pages/register/Register'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import { useState } from 'react'
+
+
+
+// function setToken(userToken) {
+//   sessionStorage.setItem('token', JSON.stringify(userToken));
+// }
+
+// function getToken() {
+// }
+ 
+// Containers
+
+// Pages
+// const Login = React.lazy(() => import('./views/pages/login/Login'))
+// const Register = React.lazy(() => import('./views/pages/register/Register'))
+// const Page404 = React.lazy(() => import('./views/pages/page404/Page404'))
+// const Page500 = React.lazy(() => import('./views/pages/page500/Page500'))
+// const Hero = React.lazy(() => import('./views/pages/hero/Hero'))
+
+
+function App() { 
+    return (
+      <BrowserRouter basename="/vaulltiweb">
+          <Switch>
+            {/* <Route exact path="/hero" name="Page Hero" render={(props) => <Hero {...props} />} /> */}
+            <Route exact path="/" name="hero" render={(props) => <Hero {...props} />} />
+            <Route path="/login" name="Login Page" render={(props) => <Login {...props} />} />
+            <Route path="/register" name="Register Page" render={(props) => <Register {...props} />} />
+          </Switch>
+      </BrowserRouter>
+    )
+  //   const token = getToken();
+
+  // if(!token) {
+  //   return <Login setToken={setToken} />
+  
+  // }
+  
 }
 
-export default App;
+export default App

@@ -2,23 +2,51 @@
   "name": "vaulltiweb",
   "homepage": "https://Vaullti-KR.github.io/vaulltiweb",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
+    "@coreui/chartjs": "^3.0.0",
+    "@coreui/coreui": "^4.1.0",
+    "@coreui/icons": "^2.1.0",
+    "@coreui/icons-react": "^2.0.0",
+    "@coreui/react": "^4.1.0",
+    "@coreui/react-chartjs": "^2.0.0",
+    "@coreui/utils": "^1.3.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
+    "axios": "^0.24.0",
+    "babel": "^6.23.0",
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.6.0",
+    "classnames": "^2.3.1",
+    "core-js": "^3.19.1",
+    "enzyme": "^3.11.0",
+    "mysql": "^2.18.1",
+    "node": "^17.3.1",
+    "prop-types": "^15.8.1",
     "react": "^17.0.2",
+    "react-app-polyfill": "^2.0.0",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scroll": "^1.8.4",
+    "redux": "4.1.2",
+    "serve": "^13.0.2",
+    "simplebar-react": "^2.3.6",
+    "styled-components": "^5.3.3",
+    "vue": "^2.6.14"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "build:n17": "react-scripts build",
+    "changelog": "auto-changelog --starting-version 4.1.0 --commit-limit false --hide-credit",
+    "eject": "react-scripts eject",
+    "lint": "eslint \"src/**/*.js\"",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "start:n17": "react-scripts start",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"  
+    "test:cov": "npm test -- --coverage --watchAll=false",
+    "deploy": "gh-pages -d build",
+    "test:debug": "react-scripts --inspect-brk test --runInBand"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +67,15 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "auto-changelog": "~2.3.0",
+    "cors": "^2.8.5",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "express": "^4.17.2",
+    "gh-pages": "^3.2.3",
+    "prettier": "2.5.0",
+    "react-scripts": "^4.0.3",
+    "sass": "^1.43.5"
   }
 }

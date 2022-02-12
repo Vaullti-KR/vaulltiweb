@@ -1,0 +1,83 @@
+{
+  "name": "vaulltiweb",
+  "homepage": "https://vaullti-kr.github.io/vaulltiweb",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "@coreui/chartjs": "^3.0.0",
+    "@coreui/coreui": "^4.1.0",
+    "@coreui/icons": "^2.1.0",
+    "@coreui/icons-react": "^2.0.0",
+    "@coreui/react": "^4.1.0",
+    "@coreui/react-chartjs": "^2.0.0",
+    "@coreui/utils": "^1.3.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
+    "axios": "^0.24.0",
+    "babel": "^6.23.0",
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.6.0",
+    "classnames": "^2.3.1",
+    "core-js": "^3.19.1",
+    "enzyme": "^3.11.0",
+    "mysql": "^2.18.1",
+    "node": "^17.3.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scroll": "^1.8.4",
+    "redux": "4.1.2",
+    "serve": "^13.0.2",
+    "simplebar-react": "^2.3.6",
+    "styled-components": "^5.3.3",
+    "vue": "^2.6.14",
+    "webpack": "^4.44.2"
+  },
+  "scripts": {
+    "build": "react-scripts --openssl-legacy-provider build",
+    "build:n17": "react-scripts build",
+    "changelog": "auto-changelog --starting-version 4.1.0 --commit-limit false --hide-credit",
+    "eject": "react-scripts eject",
+    "lint": "eslint \"src/**/*.js\"",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "start:n17": "react-scripts start",
+    "test": "react-scripts test",
+    "test:cov": "npm test -- --coverage --watchAll=false",
+    "deploy": "gh-pages -d build",
+    "test:debug": "react-scripts --inspect-brk test --runInBand"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "auto-changelog": "~2.3.0",
+    "cors": "^2.8.5",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "express": "^4.17.2",
+    "gh-pages": "^3.2.3",
+    "html-webpack-plugin": "^4.5.2",
+    "prettier": "2.5.0",
+    "react-scripts": "^4.0.3",
+    "sass": "^1.43.5"
+  }
+}

@@ -27,7 +27,7 @@ import Register from './views/pages/register/Register'
 
 function App() { 
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
           <Switch>
             {/* <Route exact path="/hero" name="Page Hero" render={(props) => <Hero {...props} />} /> */}
             <Route exact path="/" name="hero" render={(props) => <Hero {...props} />} />

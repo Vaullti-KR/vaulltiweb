@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 import Hero from './views/pages/hero/Hero'
 import Login from './views/pages/login/Login'
 import Register from './views/pages/register/Register'

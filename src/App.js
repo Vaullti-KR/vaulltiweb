@@ -27,14 +27,14 @@ import Register from './views/pages/register/Register'
 
 function App() { 
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
+      <HashRouter basename={process.env.PUBLIC_URL + '/'}>
           <Switch>
             {/* <Route exact path="/hero" name="Page Hero" render={(props) => <Hero {...props} />} /> */}
             <Route path="/" name="hero" render={(props) => <Hero {...props} />} />
             <Route path="/login" name="Login Page" render={(props) => <Login {...props} />} />
             <Route path="/register" name="Register Page" render={(props) => <Register {...props} />} />
           </Switch>
-      </BrowserRouter>
+      </HashRouter>
     )
   //   const token = getToken();
 

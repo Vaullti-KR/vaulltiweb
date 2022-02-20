@@ -31,8 +31,8 @@ function App() {
           <Switch>
             {/* <Route exact path="/hero" name="Page Hero" render={(props) => <Hero {...props} />} /> */}
             <Route path="/" name="hero" render={(props) => <Hero {...props} />} />
-            <Route path="/vaulltiweb/login" name="Login Page" render={(props) => <Login {...props} />} />
-            <Route path="/vaulltiweb/register" name="Register Page" render={(props) => <Register {...props} />} />
+            <Route path="vaullti-KR.github.io/vaulltiweb/login" name="Login Page" render={(props) => <Login {...props} />} />
+            <Route path="vaullti-KR.github.io/vaulltiweb/register" name="Register Page" render={(props) => <Register {...props} />} />
           </Switch>
       </BrowserRouter>
     )

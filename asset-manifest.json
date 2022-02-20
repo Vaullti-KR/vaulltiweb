@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vaulltiweb/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/vaulltiweb/static/js/main.a8ae6610.chunk.js",
-    "main.js.map": "/vaulltiweb/static/js/main.a8ae6610.chunk.js.map",
+    "main.js": "/vaulltiweb/static/js/main.52a36799.chunk.js",
+    "main.js.map": "/vaulltiweb/static/js/main.52a36799.chunk.js.map",
     "runtime-main.js": "/vaulltiweb/static/js/runtime-main.7e6f066d.js",
     "runtime-main.js.map": "/vaulltiweb/static/js/runtime-main.7e6f066d.js.map",
-    "static/js/2.e9d55cd3.chunk.js": "/vaulltiweb/static/js/2.e9d55cd3.chunk.js",
-    "static/js/2.e9d55cd3.chunk.js.map": "/vaulltiweb/static/js/2.e9d55cd3.chunk.js.map",
+    "static/js/2.6436249a.chunk.js": "/vaulltiweb/static/js/2.6436249a.chunk.js",
+    "static/js/2.6436249a.chunk.js.map": "/vaulltiweb/static/js/2.6436249a.chunk.js.map",
     "index.html": "/vaulltiweb/index.html",
     "static/css/main.2ae47eeb.chunk.css.map": "/vaulltiweb/static/css/main.2ae47eeb.chunk.css.map",
-    "static/js/2.e9d55cd3.chunk.js.LICENSE.txt": "/vaulltiweb/static/js/2.e9d55cd3.chunk.js.LICENSE.txt",
+    "static/js/2.6436249a.chunk.js.LICENSE.txt": "/vaulltiweb/static/js/2.6436249a.chunk.js.LICENSE.txt",
     "static/media/LogoVaullti.c3fa0d1d.png": "/vaulltiweb/static/media/LogoVaullti.c3fa0d1d.png",
     "static/media/img1.94dbd298.svg": "/vaulltiweb/static/media/img1.94dbd298.svg",
     "static/media/img10.da15af88.svg": "/vaulltiweb/static/media/img10.da15af88.svg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7e6f066d.js",
-    "static/js/2.e9d55cd3.chunk.js",
+    "static/js/2.6436249a.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.a8ae6610.chunk.js"
+    "static/js/main.52a36799.chunk.js"
   ]
 }

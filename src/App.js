@@ -27,12 +27,12 @@ import Register from './views/pages/register/Register'
 
 function App() { 
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
           <Switch>
             {/* <Route exact path="/hero" name="Page Hero" render={(props) => <Hero {...props} />} /> */}
             <Route path="/" name="hero" render={(props) => <Hero {...props} />} />
-            <Route path="vaullti-KR.github.io/vaulltiweb/login" name="Login Page" render={(props) => <Login {...props} />} />
-            <Route path="vaullti-KR.github.io/vaulltiweb/register" name="Register Page" render={(props) => <Register {...props} />} />
+            <Route path="/login" name="Login Page" render={(props) => <Login {...props} />} />
+            <Route path="/register" name="Register Page" render={(props) => <Register {...props} />} />
           </Switch>
       </BrowserRouter>
     )

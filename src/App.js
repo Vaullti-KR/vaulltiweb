@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Router, Route, Switch } from 'react-router-dom'
 import Hero from './views/pages/hero/Hero'
 import Login from './views/pages/login/Login'
 import Register from './views/pages/register/Register'
@@ -27,14 +27,14 @@ import Register from './views/pages/register/Register'
 
 function App() { 
     return (
-      <HashRouter basename={process.env.PUBLIC_URL + '/'}>
+      <Router basename={process.env.PUBLIC_URL + '/'}>
           <Switch>
             {/* <Route exact path="/hero" name="Page Hero" render={(props) => <Hero {...props} />} /> */}
-            <Route path="/" name="hero" render={(props) => <Hero {...props} />} />
-            <Route path="/login" name="Login Page" render={(props) => <Login {...props} />} />
-            <Route path="/register" name="Register Page" render={(props) => <Register {...props} />} />
+            <Route exact path="/" name="hero" render={(props) => <Hero {...props} />} />
+            <Route exact path="/login" name="Login Page" render={(props) => <Login {...props} />} />
+            <Route exact path="/register" name="Register Page" render={(props) => <Register {...props} />} />
           </Switch>
-      </HashRouter>
+      </Router>
     )
   //   const token = getToken();
 

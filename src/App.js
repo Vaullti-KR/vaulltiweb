@@ -31,8 +31,8 @@ function App() {
           <Switch>
             {/* <Route exact path="/hero" name="Page Hero" render={(props) => <Hero {...props} />} /> */}
             <Route exact path="/" name="hero" render={(props) => <Hero {...props} />} />
-            <Route exact path="/login" name="Login Page" render={(props) => <Login {...props} />} />
-            <Route exact path="/register" name="Register Page" render={(props) => <Register {...props} />} />
+            <Route path="/login" name="Login Page" render={(props) => <Login {...props} />} />
+            <Route path="/register" name="Register Page" render={(props) => <Register {...props} />} />
           </Switch>
       </BrowserRouter>
     )

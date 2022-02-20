@@ -38,7 +38,7 @@ const Hero = () => {
         <InfoSection {...homeObjTwo}/>
         <Services />
         <InfoSection {...homeObjThree}/>
-        <NavBtn2>
+            <NavBtn2>
             <NavBtnLink to='/register'
             smooth={true} duration={500} spy={true} exact='true' offset={-80}
             >Sign up now!</NavBtnLink>

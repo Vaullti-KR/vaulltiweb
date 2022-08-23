@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vaulltiweb/static/css/main.d6fe9286.chunk.css",
-    "main.js": "/vaulltiweb/static/js/main.6eaf87d7.chunk.js",
-    "main.js.map": "/vaulltiweb/static/js/main.6eaf87d7.chunk.js.map",
+    "main.js": "/vaulltiweb/static/js/main.daef8819.chunk.js",
+    "main.js.map": "/vaulltiweb/static/js/main.daef8819.chunk.js.map",
     "runtime-main.js": "/vaulltiweb/static/js/runtime-main.7e6f066d.js",
     "runtime-main.js.map": "/vaulltiweb/static/js/runtime-main.7e6f066d.js.map",
     "static/js/2.8ae92728.chunk.js": "/vaulltiweb/static/js/2.8ae92728.chunk.js",
@@ -19,12 +19,13 @@
     "static/media/imga.79fdba53.svg": "/vaulltiweb/static/media/imga.79fdba53.svg",
     "static/media/imgd.d78c5a57.svg": "/vaulltiweb/static/media/imgd.d78c5a57.svg",
     "static/media/imgg.846ee66c.svg": "/vaulltiweb/static/media/imgg.846ee66c.svg",
+    "static/media/imgh.41767bf1.svg": "/vaulltiweb/static/media/imgh.41767bf1.svg",
     "static/media/logovaulltismall.41d5ef05.png": "/vaulltiweb/static/media/logovaulltismall.41d5ef05.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7e6f066d.js",
     "static/js/2.8ae92728.chunk.js",
     "static/css/main.d6fe9286.chunk.css",
-    "static/js/main.6eaf87d7.chunk.js"
+    "static/js/main.daef8819.chunk.js"
   ]
 }

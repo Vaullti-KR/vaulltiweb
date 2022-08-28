@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vaulltiweb/static/css/main.d6fe9286.chunk.css",
-    "main.js": "/vaulltiweb/static/js/main.daef8819.chunk.js",
-    "main.js.map": "/vaulltiweb/static/js/main.daef8819.chunk.js.map",
+    "main.js": "/vaulltiweb/static/js/main.6c7204dd.chunk.js",
+    "main.js.map": "/vaulltiweb/static/js/main.6c7204dd.chunk.js.map",
     "runtime-main.js": "/vaulltiweb/static/js/runtime-main.7e6f066d.js",
     "runtime-main.js.map": "/vaulltiweb/static/js/runtime-main.7e6f066d.js.map",
-    "static/js/2.8ae92728.chunk.js": "/vaulltiweb/static/js/2.8ae92728.chunk.js",
-    "static/js/2.8ae92728.chunk.js.map": "/vaulltiweb/static/js/2.8ae92728.chunk.js.map",
+    "static/js/2.602b2872.chunk.js": "/vaulltiweb/static/js/2.602b2872.chunk.js",
+    "static/js/2.602b2872.chunk.js.map": "/vaulltiweb/static/js/2.602b2872.chunk.js.map",
     "index.html": "/vaulltiweb/index.html",
     "static/css/main.d6fe9286.chunk.css.map": "/vaulltiweb/static/css/main.d6fe9286.chunk.css.map",
-    "static/js/2.8ae92728.chunk.js.LICENSE.txt": "/vaulltiweb/static/js/2.8ae92728.chunk.js.LICENSE.txt",
+    "static/js/2.602b2872.chunk.js.LICENSE.txt": "/vaulltiweb/static/js/2.602b2872.chunk.js.LICENSE.txt",
     "static/media/LogoVaullti.c3fa0d1d.png": "/vaulltiweb/static/media/LogoVaullti.c3fa0d1d.png",
     "static/media/amcpr.589833fb.jpg": "/vaulltiweb/static/media/amcpr.589833fb.jpg",
     "static/media/amimg.a17cfdf6.jpg": "/vaulltiweb/static/media/amimg.a17cfdf6.jpg",
@@ -17,15 +17,14 @@
     "static/media/img14.bd9b3fa4.svg": "/vaulltiweb/static/media/img14.bd9b3fa4.svg",
     "static/media/img15.7ee75681.svg": "/vaulltiweb/static/media/img15.7ee75681.svg",
     "static/media/imga.79fdba53.svg": "/vaulltiweb/static/media/imga.79fdba53.svg",
-    "static/media/imgd.d78c5a57.svg": "/vaulltiweb/static/media/imgd.d78c5a57.svg",
     "static/media/imgg.846ee66c.svg": "/vaulltiweb/static/media/imgg.846ee66c.svg",
     "static/media/imgh.41767bf1.svg": "/vaulltiweb/static/media/imgh.41767bf1.svg",
     "static/media/logovaulltismall.41d5ef05.png": "/vaulltiweb/static/media/logovaulltismall.41d5ef05.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7e6f066d.js",
-    "static/js/2.8ae92728.chunk.js",
+    "static/js/2.602b2872.chunk.js",
     "static/css/main.d6fe9286.chunk.css",
-    "static/js/main.daef8819.chunk.js"
+    "static/js/main.6c7204dd.chunk.js"
   ]
 }
